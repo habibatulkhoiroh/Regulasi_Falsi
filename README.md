@@ -1,4 +1,4 @@
-Tugas regulasi falsi1 Metode numerik 
+Tugas regulasi falsi Metode numerik 
 
 
 
@@ -9,7 +9,6 @@ def find_root_bisection(a, b, tolerance):
 if f(a) * f(b) >= 0:
     print("Tidak ada akar dalam selang ini.")
     return None
-
 while (b - a) / 2 > tolerance:
     midpoint = (a + b) / 2
     if f(midpoint) == 0:
